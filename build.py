@@ -6,6 +6,7 @@ def get_personal_data():
     email = "patricia.gschossmann@gmail.com"
     github = "patriciamdr"
     bio_text = f"""
+                <p>I'm a PhD student at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group</a>, led by <a href="https://www.cvlibs.net/" target="_blank">Prof. Andreas Geiger</a>. My research is supported by the <a href="https://imprs.is.mpg.de/" target="_blank">International Max Planck Research School of Intelligent Systems.<a/></p>
                 <p>For any inquiries, feel free to reach out to me via email!</p>
                 <p>
                     <a href="https://patriciagschossmann.github.io/assets/pdf/CV_Gschoßmann_Patricia.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
@@ -70,7 +71,7 @@ def get_paper_entry(entry_key, entry):
     s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
 
     artefacts = {
-        "html": "Project Page",
+        # "html": "Project Page",
         "pdf": "Paper",
         "supp": "Supplemental",
         "video": "Video",
