@@ -6,7 +6,14 @@ def get_personal_data():
     email = "patricia.gschossmann@gmail.com"
     github = "patriciamdr"
     bio_text = f"""
-                <p>I'm a PhD student at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group</a>, led by <a href="https://www.cvlibs.net/" target="_blank">Prof. Andreas Geiger</a>. My research is supported by the <a href="https://imprs.is.mpg.de/" target="_blank">International Max Planck Research School of Intelligent Systems.<a/></p>
+                <p>
+                I'm a PhD student at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group</a>, led by <a href="https://www.cvlibs.net/" target="_blank">Prof. Dr.-Ing. Andreas Geiger</a>.
+                My research is supported by the <a href="https://imprs.is.mpg.de/" target="_blank">International Max Planck Research School of Intelligent Systems<a/>.
+                </p>
+                <p>
+                Before starting my PhD, I worked as a computer vision and deep learning intern for augmented reality at <a href="https://www.bmw.de/de/home.html" target="_blank">BMW</a> on the AR glasses research project, which was showcased at <a href="https://www.press.bmwgroup.com/global/article/detail/T0438824EN/generative-ai-augmented-reality-and-teleoperated-parking-%E2%80%93-the-digital-experience-in-the-bmw-of-the-future-at-the-consumer-electronics-show-ces-2024?language=en" target="_blank">CES 2024<a/>.
+                Prior to that, I completed my M.Sc. in Computer Science at the <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich</a>, after receiving my B.Sc. in Computer Science from <a href="https://www.lmu.de/en/" target="_blank">Ludwig Maximilian University of Munich</a>.
+                </p>
                 <p>For any inquiries, feel free to reach out to me via email!</p>
                 <p>
                     <a href="https://patriciagschossmann.github.io/assets/pdf/CV_Gschoßmann_Patricia.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
