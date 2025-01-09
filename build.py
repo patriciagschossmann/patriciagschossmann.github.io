@@ -3,7 +3,7 @@ from pybtex.database.input import bibtex
 
 def get_personal_data():
     name = ["Patricia", "Gschoßmann"]
-    email = "patricia.gschossmann@gmail.com"
+    email = "patricia.gschossmann@uni-tuebingen.de"
     github = "patriciagschossmann"
     bio_text = f"""
                 <p>
@@ -21,7 +21,7 @@ def get_personal_data():
                 <p>For any inquiries, feel free to reach out to me via email!</p>
                 <p>
                     <a href="https://patriciagschossmann.github.io/assets/pdf/CV_Gschoßmann_Patricia.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:patricia.gschossmann@gmail.com" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Email</a>
+                    <a href="mailto:patricia.gschossmann@uni-tuebingen.de" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Email</a>
                     <a href="https://github.com/patriciagschossmann" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> GitHub</a>
                 </p>
     """
