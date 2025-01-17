@@ -5,6 +5,7 @@ def get_personal_data():
     name = ["Patricia", "Gschoßmann"]
     email = "patricia.gschossmann@uni-tuebingen.de"
     github = "patriciagschossmann"
+    bsky = "pgschossmann.bsky.social"
     bio_text = f"""
                 <p>
                 I'm a PhD student at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group</a>, led by <a href="https://www.cvlibs.net/" target="_blank">Prof. Dr.-Ing. Andreas Geiger</a>.
@@ -20,9 +21,10 @@ def get_personal_data():
                 </p>
                 <p>For any inquiries, feel free to reach out to me via email!</p>
                 <p>
-                    <a href="https://patriciagschossmann.github.io/assets/pdf/CV_Gschoßmann_Patricia.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:patricia.gschossmann@uni-tuebingen.de" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Email</a>
-                    <a href="https://github.com/patriciagschossmann" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> GitHub</a>
+                    <a href="https://{github}.github.io/assets/pdf/CV_Gschoßmann_Patricia.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="mailto:{email}" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Email</a>
+                    <a href="https://github.com/{github}" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> GitHub</a>
+                    <a href="https://bsky.app/profile/{bsky}" target="_blank" style="margin-right: 5px"><i class="fab fa-bluesky fa-lg"></i> Bluesky</a>
                 </p>
     """
     footer = """
@@ -173,8 +175,7 @@ def get_index_html():
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>{name[0] + ' ' + name[1]}</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
