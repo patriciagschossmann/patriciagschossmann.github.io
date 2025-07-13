@@ -1,30 +1,35 @@
 from pybtex.database.input import bibtex
 
 
+# I am particularly interested in improving 3D scene representation and related tasks such as surface reconstruction and scene relighting.
+# , in particular 3D reconstruction from 2D images and novel view synthesis.
+# <p>For any inquiries, feel free to reach out!</p>
 def get_personal_data():
     name = ["Patricia", "Gschoßmann"]
     email = "patricia.gschossmann@uni-tuebingen.de"
     github = "patriciagschossmann"
     bsky = "pgschossmann.bsky.social"
+    x = "pgschossmann"
     bio_text = f"""
                 <p>
                 I'm a PhD student at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group</a>, led by <a href="https://www.cvlibs.net/" target="_blank">Prof. Dr.-Ing. Andreas Geiger</a>.
                 My research is supported by the <a href="https://imprs.is.mpg.de/" target="_blank">International Max Planck Research School of Intelligent Systems<a/>.
                 </p>
                 <p>
-                My research interests lie at the intersection of computer vision (3D vision), machine learning (deep learning), and computer graphics (geometry, rendering), in particular 3D reconstruction from 2D images and novel view synthesis.
-                I am particularly interested in improving 3D scene representation and related tasks such as surface meshing and scene relighting.
+                My research interests lie at the intersection of computer vision (3D vision), machine learning (deep learning), and computer graphics (geometry, rendering).
+                My current research focuses on advancing 3D scene representations, with a particular emphasis on high-fidelity surface reconstruction and efficient mesh extraction.
                 </p>
                 <p>
                 Before starting my PhD, I worked as a computer vision and deep learning intern for augmented reality at <a href="https://www.bmw.de/de/home.html" target="_blank">BMW</a> on the AR glasses research project, which was showcased at <a href="https://www.press.bmwgroup.com/global/article/detail/T0438824EN/generative-ai-augmented-reality-and-teleoperated-parking-%E2%80%93-the-digital-experience-in-the-bmw-of-the-future-at-the-consumer-electronics-show-ces-2024?language=en" target="_blank">CES 2024<a/>.
                 Prior to that, I completed my M.Sc. in Computer Science at the <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich</a>, after receiving my B.Sc. in Computer Science from <a href="https://www.lmu.de/en/" target="_blank">Ludwig Maximilian University of Munich</a>.
                 </p>
-                <p>For any inquiries, feel free to reach out to me via email!</p>
+                <p>Feel free to reach out - I'm always happy to connect!</p>
                 <p>
                     <a href="https://{github}.github.io/assets/pdf/CV_Gschoßmann_Patricia.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:{email}" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Email</a>
+                    <a href="mailto:{email}" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://github.com/{github}" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> GitHub</a>
                     <a href="https://bsky.app/profile/{bsky}" target="_blank" style="margin-right: 5px"><i class="fab fa-bluesky fa-lg"></i> Bluesky</a>
+                    <a href="https://x.com/{x}" target="_blank" style="margin-right: 5px"> <i class="fa-brands fa-x-twitter fa-lg"></i> X</a>
                 </p>
     """
     footer = """
